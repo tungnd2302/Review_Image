@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * module
+ *
+ * @copyright Copyright © 2020 MAGETOP. All rights reserved.
+ * @author    info@magetop.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Review\Controller\Product\Post" type="AHT\Lession9\Controller\Post" />
+     <preference for="Magento\Review\Model\ResourceModel\Review" type="AHT\Lession9\Model\ResourceModel\Review" />
+</config>
